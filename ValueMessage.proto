@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ValueMessage
+{
+    int32 id = 1;
+    float value = 2;
+}

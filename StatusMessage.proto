@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ValueMessage.proto";
+
+message ControlMessage
+{
+    repeated ValueMessage Encoders = 1;
+    repeated ValueMessage Accelerometers = 2;
+    repeated ValueMessage Gyroscopes = 3;
+}
