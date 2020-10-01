@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "ValueMessage.proto";
 
-message ControlMessage
+message StatusMessage
 {
     repeated ValueMessage Encoders = 1;
     repeated ValueMessage Accelerometers = 2;
