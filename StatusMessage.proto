@@ -7,5 +7,5 @@ message StatusMessage
     repeated ValueMessage Encoders = 1;
     repeated ValueMessage Accelerometers = 2;
     repeated ValueMessage Gyroscopes = 3;
-    repeated ValueMessage Advanced = 4:
+    repeated ValueMessage Advanced = 4;
 }
